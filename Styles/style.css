@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}header {
+    /*max-height: 9em; */
+    line-height: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+section {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer { 
+    bottom: 0px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0em 0em 0em 0em;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: rgb(124, 124, 124);
+    color: white;
+    padding: 1em;
+}
+
+footer p {
+    margin: 0px;
+}
+
+#CEAESBANNER {
+    max-width: 100%;
+    height: auto;
+    /*position: absolute;
+    bottom: 0px;
+    /* border-radius: 1em; */
+    /* box-shadow: 0.5em 0.5em 0em rgba(0, 0, 0, 0.315); */
+}
+
+#CEAESBANNER_IMG a {
+    padding: 2em 0.5em 0.3em 0.5em;background-color: white;border-radius: 100px;
+        
+}
+
+#NavBar {
+    background-color: red;
+    /*background-color: #05AFF2;*/
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+}
+
+#NavBar a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    margin: 0 3rem 6rem 3rem;
+}
+
+
+.tablero {
+    display: grid;
+    /*grid-template-columns: 300px 300px 300px;*/
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.celda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+    padding: 2em;
+    border-radius: 0.5em;
+
+    border: 1px solid #ccc;
+    box-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0, 0.3);
+}
+.celda img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#CeldaEspecial1 {
+
+    background-color: aqua;
+}
+#CeldaEspecial2 {
+
+    background-color: aqua;
+}
+#CeldaEspecial3 {
+    
+    background-color: aqua;
+}
+#CeldaEspecial4 {
+
+    background-color: rgb(255, 255, 255);
+}
+#CeldaEspecial5 {
+    background-color: yellow;
+}
+#CeldaEspecial6 {
+    padding: 30px;
+    background-color:rgb(255, 255, 255);  
+}
+#CeldaEspecial7 {
+    padding: 30px;
+    background-color:aqua;  
+}
+#CeldaEspecial8 {
+    padding: 30px;
+    background-color:aqua;  
+}
+#CeldaEspecial9 {
+    padding: 30px;
+    background-color:aqua;  
+
+}
+#CEAESFOOTER_IMG {
+    display: flex;
+    flex-direction: row;
+}

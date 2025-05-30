@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+    });
+    </script>
+</head>
+<body>
+    <header>
+            <img src="./IMG/CEAES 2025NUEVOPNG.png" alt="CEAESBANNER" id="CEAESBANNER">
+            <div id="NavBar">
+                <nav><a href="./home.html">HOME</a></nav>
+                <nav><a href="./sobrenosotros.html">SOBRE NOSOTROS</a></nav>
+                <nav><a href="./suscribite.html">SUSCRIBITE</a></nav>
+            </div>
+    </header>
+    <main id="main_container">
+        <section>
+            <div style="margin: 10vh;">
+                <h1>Titulo de la nota</h1>                              <!--    Titulo de la nota  -->
+                <h3 style="color: grey;">Autor de la nota</h3>        <!--    Autor de la nota   -->
+                <p>Texto de la nota</p>                                 <!--    Texto de la nota   -->
+                
+                <br>
+
+                <img src="./IMG/cONEJOPNG.png" alt="Imagen de la Nota"> <!--    Imagen de la nota  -->
+
+                <p>Texto Texto Texto Texto 
+                    Texto Texto Texto Texto Texto 
+                    Texto Texto Texto Texto Texto 
+                    Texto Texto Texto Texto Texto 
+                    Texto Texto Texto Texto Texto 
+                    Texto Texto Texto Texto Texto  <img src="./IMG/cONEJOPNG.png" alt="Imagen de la Nota" style="float: left;"></p>
+
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Todos los derechos reservados pertenecen al CEAES <br> &copy; 2024 projectos de producción</p>
+        <div style="margin: 1em 0em 0em 0em" id="CEAESBANNER_IMG">
+            <a href="www.instagram.com/espiritusantoCEAES/"><img src="./IMG/img_footerinstagram.png" alt="Instagram"></a>
+            <a href="www.facebook.com/espiritusantoCEAES/"><img src="./IMG/img_footerfacebook.png" alt="Facebook"></a>
+            <a href="https://ceaes.edu.ar/"><img src="./IMG/img_footerweb.png" alt="Pagina Principal"></a>
+        </div>
+    </footer>
+</body>
+</html>
