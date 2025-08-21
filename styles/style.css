@@ -145,7 +145,7 @@ footer p {
     border-radius: 5px;
     margin-bottom: 10px;
 }
-
+/*
 #CeldaEspecial1 {
 
     background-color: aqua;
@@ -182,6 +182,7 @@ footer p {
     background-color:aqua;  
 
 }
+*/
 #CEAESFOOTER_IMG {
     display: flex;
     flex-direction: row;
@@ -271,4 +272,5 @@ footer p {
 .sidebar-nota ul li a:hover {
     color: #007bff;
     text-decoration: underline;
+
 }
