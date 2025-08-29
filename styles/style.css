@@ -122,9 +122,9 @@ footer p {
     margin: 1em 1em 1em 1em;
     padding: 1em;
     
-    align-items: center;
+    /*align-items: center; */
     justify-content: center;
-    justify-items: center;
+    /*justify-items: center; */
 }
 
 .celda {
@@ -274,3 +274,4 @@ footer p {
     text-decoration: underline;
 
 }
+
