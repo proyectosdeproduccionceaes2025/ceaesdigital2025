@@ -61,24 +61,20 @@ footer {
     margin: 0em 0em 0em 0em;
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
+    font-size: 0.50m;
     font-weight: 700;
+     color: #ffffff;
 
     justify-items: center;
     align-items: center;
     text-align: center;
-
-    background-color: rgb(124, 124, 124);
-    color: white;
+    background-color: #002244;
     padding: 1em;
 }
 
 
 footer {
-  background-color: #002244;
-  color: #ffffff;
-  font-size: 0.9em;
-  margin: 0px;
+
 }
 #CEAESBANNER {
     opacity: 1;
@@ -290,6 +286,7 @@ footer {
     text-decoration: underline;
 
 }
+
 
 
 
