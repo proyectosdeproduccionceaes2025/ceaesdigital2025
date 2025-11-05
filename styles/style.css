@@ -73,10 +73,13 @@ footer {
     padding: 1em;
 }
 
-footer p {
-    margin: 0px;
-}
 
+footer {
+  background-color: #002244;
+  color: #ffffff;
+  font-size: 0.9em;
+  margin: 0px;
+}
 #CEAESBANNER {
     opacity: 1;
     width: 100%;
@@ -287,6 +290,7 @@ footer p {
     text-decoration: underline;
 
 }
+
 
 
 
