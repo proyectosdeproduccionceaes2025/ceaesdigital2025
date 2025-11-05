@@ -57,17 +57,19 @@ footer {
     bottom: 0px; 
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
     margin: 0em 0em 0em 0em;
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.50m;
     font-weight: 700;
-     color: #ffffff;
+    color: #ffffff;
 
-    justify-items: center;
-    align-items: center;
-    text-align: center;
+  
     background-color: #002244;
     padding: 1em;
 }
@@ -286,6 +288,7 @@ footer {
     text-decoration: underline;
 
 }
+
 
 
 
