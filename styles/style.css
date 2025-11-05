@@ -159,48 +159,7 @@ article h1 {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-/*
-#CeldaEspecial1 {
 
-    background-color: aqua;
-}
-#CeldaEspecial2 {
-
-    background-color: aqua;
-}
-#CeldaEspecial3 {
-    
-    background-color: aqua;
-}
-#CeldaEspecial4 {
-
-    background-color: rgb(255, 255, 255);
-}
-#CeldaEspecial5 {
-    background-color: yellow;
-}
-#CeldaEspecial6 {
-    padding: 30px;
-    background-color:rgb(255, 255, 255);  
-}
-#CeldaEspecial7 {
-    padding: 30px;
-    background-color:aqua;  
-}
-#CeldaEspecial8 {
-    padding: 30px;
-    background-color:aqua;  
-}
-#CeldaEspecial9 {
-    padding: 30px;
-    background-color:aqua;  
-
-}
-*/
-#CEAESFOOTER_IMG {
-    display: flex;
-    flex-direction: row;
-}
 
 /* ESTOS ESTILOS SON PARA LAS NOTAS */
 
@@ -288,6 +247,7 @@ article h1 {
     text-decoration: underline;
 
 }
+
 
 
 
