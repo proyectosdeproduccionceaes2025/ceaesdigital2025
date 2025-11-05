@@ -117,7 +117,10 @@ footer p {
     margin: 0 2rem;
     transition: color 0.3s, border-bottom 0.3s;
 }
-
+#NavBar a:hover {
+  color: #ffd700; /* dorado */
+  border-bottom: 2px solid #ffd700;
+}
 
 .tablero {
     background-color: white;
@@ -150,6 +153,10 @@ footer p {
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+.celda:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 /*
 #CeldaEspecial1 {
@@ -280,6 +287,7 @@ footer p {
     text-decoration: underline;
 
 }
+
 
 
 
