@@ -78,6 +78,13 @@ article h1 {
     font-size: 0.40m;
 }
 
+.tittulonota a {
+    color: #111213;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
 #CEAESBANNER {
     opacity: 1;
     width: 100%;
@@ -247,6 +254,7 @@ article h1 {
     text-decoration: underline;
 
 }
+
 
 
 
