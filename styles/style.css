@@ -167,7 +167,16 @@ article h1 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-
+.LeerMas {
+    color: #007bff;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 /* ESTOS ESTILOS SON PARA LAS NOTAS */
 
 .main-nota {
@@ -254,6 +263,7 @@ article h1 {
     text-decoration: underline;
 
 }
+
 
 
 
