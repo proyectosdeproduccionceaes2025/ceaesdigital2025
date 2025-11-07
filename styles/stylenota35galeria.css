@@ -23,3 +23,16 @@ transform: scale(1.05)
 footer{
 margin-top: 10px;
 }
+.fondo{
+    background-color: rgb(230, 159, 174);
+}
+
+.banner {
+width: auto;
+height: auto;
+}
+
+header .banner img{
+    width: auto;
+    height: auto;
+}
