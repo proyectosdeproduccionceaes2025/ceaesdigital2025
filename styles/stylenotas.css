@@ -160,3 +160,14 @@ footer{
     height: auto;
     display: block;
 }
+.irgaleria {
+    color: #007bff;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
